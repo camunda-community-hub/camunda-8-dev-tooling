@@ -1,0 +1,9 @@
+{
+  "name" : "myDmn",
+  "modified" : 1669803498067,
+  "definition" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<definitions xmlns=\"https://www.omg.org/spec/DMN/20191111/MODEL/\" xmlns:dmndi=\"https://www.omg.org/spec/DMN/20191111/DMNDI/\" xmlns:dc=\"http://www.omg.org/spec/DMN/20180521/DC/\" xmlns:modeler=\"http://camunda.org/schema/modeler/1.0\" id=\"Definitions_00ovzg8\" name=\"DRD\" namespace=\"http://camunda.org/schema/1.0/dmn\" exporter=\"Camunda Modeler\" exporterVersion=\"5.0.0\" modeler:executionPlatform=\"Camunda Cloud\" modeler:executionPlatformVersion=\"8.0.0\">\n  <decision id=\"decision1\" name=\"Decision 1\">\n    <decisionTable id=\"DecisionTable_07iaaa7\" hitPolicy=\"COLLECT\">\n      <input id=\"Input_1\" label=\"test\">\n        <inputExpression id=\"InputExpression_1\" typeRef=\"string\">\n          <text>test</text>\n        </inputExpression>\n      </input>\n      <output id=\"Output_1\" label=\"result\" name=\"result\" typeRef=\"string\" />\n      <rule id=\"DecisionRule_1lek9qr\">\n        <inputEntry id=\"UnaryTests_123uqni\">\n          <text>\"test\"</text>\n        </inputEntry>\n        <outputEntry id=\"LiteralExpression_1jvagvz\">\n          <text>\"test\"</text>\n        </outputEntry>\n      </rule>\n      <rule id=\"DecisionRule_1ynj4t8\">\n        <inputEntry id=\"UnaryTests_1c7q0ah\">\n          <text></text>\n        </inputEntry>\n        <outputEntry id=\"LiteralExpression_0wt58jw\">\n          <text>\"titi\"</text>\n        </outputEntry>\n      </rule>\n    </decisionTable>\n  </decision>\n  <dmndi:DMNDI>\n    <dmndi:DMNDiagram>\n      <dmndi:DMNShape dmnElementRef=\"decision1\">\n        <dc:Bounds height=\"80\" width=\"180\" x=\"610\" y=\"330\" />\n      </dmndi:DMNShape>\n    </dmndi:DMNDiagram>\n  </dmndi:DMNDI>\n</definitions>\n",
+  "decisionId" : "decision1",
+  "contextData" : {
+    "test" : "test2"
+  }
+}
